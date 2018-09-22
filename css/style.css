@@ -14,6 +14,12 @@ body {
     background-color: #EADBBB;
 }
 
+header {
+    height: 500px;
+    background-size: cover;
+    background-image: url(../images/fruit.jpg);
+}
+
 h1 {
     font-size: 4rem;
     letter-spacing: 0.3em;
@@ -34,11 +40,6 @@ h1 span {
 h1 strong {
     font-size: 5rem;
     color: #5c485f;
-}
-
-.photo {
-    max-width: 100%;
-    max-height: 500px;
 }
 
 section .container {
@@ -91,7 +92,7 @@ footer {
        display: block;
    }
    
-   .photo {
+   header {
        height: 250px;
    }
    

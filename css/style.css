@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+html {
+    font-size: 62.5%; /* ベースとなるフォントサイズの定義 */
+}
+
+body {
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif; /* フォントの種類 */
+    font-size: 1.6em;
+    line-height: 1.6; /* 行間 */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #EADBBB;
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: 0.3em;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h1 br {
+    display: none;
+}
+
+h1 span {
+    font-size: 5rem;
+    color: #c93c2e;
+
+}
+
+h1 strong {
+    font-size: 5rem;
+    color: #5c485f;
+}
+
+.photo {
+    max-width: 100%;
+    max-height: 500px;
+}
+
+section .container {
+    width: 90%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+section h2 {
+    font-size: 3.2rem;
+}
+
+.volunteer-box {
+    box-sizing: border-box;
+    flex: 1;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.title {
+    margin: 0;
+    padding: 10px;
+    background-color: #96c748;
+}
+.text {
+    margin: 0;
+    background-color: white;
+    padding: 25px;
+}
+
+footer {
+    padding: 30px 0 50px 0;
+    margin-top: 80px;
+    background-color:  #F7B749;
+}
+
+.btn {
+    background-color: #c93c2e;
+    color: white;
+    width: 150px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+   h1 br {
+       display: block;
+   }
+   
+   .photo {
+       height: 250px;
+   }
+   
+    section .container {
+        display: block;
+    }
+    
+    .volunteer-box {
+        margin-bottom: 15px;
+    }
+}
